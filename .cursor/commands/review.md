@@ -15,4 +15,8 @@ Weekly reflection to celebrate wins, identify patterns, and set intentions.
     -   Update "Current Focus" with the new intention
     -   Update "Preferences" if work style patterns emerged
     -   Update "Core Priorities" if they've shifted
-9.  **Notify**: Summarize with "Weekly review complete. Your focus for next week: {Intention}."
+9.  **Sync**: Commit and push all changes:
+    -   `git add -A`
+    -   `git commit -m "📊 Week review - Mon DD to Mon DD"` (use the week's date range)
+    -   `git push`
+10. **Notify**: Summarize with "Weekly review complete and synced. Your focus for next week: {Intention}."

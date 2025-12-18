@@ -17,4 +17,8 @@ Close out the day and prepare for tomorrow.
     -   Completed a major milestone? → Update "Current Focus"
     -   Discovered a productivity pattern? → Update "Preferences"
     -   Priorities shifted? → Update "Core Priorities"
-7.  **Notify**: "Day finished. Content archived. What was your favorite moment today?"
+7.  **Sync**: Commit and push all changes:
+    -   `git add -A`
+    -   `git commit -m "📅 YYYY-MM-DD"` (use today's date)
+    -   `git push`
+8.  **Notify**: "Day finished and synced. What was your favorite moment today?"

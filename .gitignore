@@ -1,0 +1,10 @@
+# System
+.DS_Store
+*.log
+tmp/
+
+# Privacy / Secrets
+.env
+.credentials/
+.google_workspace_mcp/
+.cursor/mcp.json

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "google-workspace": {
+      "command": "uvx",
+      "args": ["workspace-mcp", "--tool-tier", "core"],
+      "env": {
+        "GOOGLE_OAUTH_CLIENT_ID": "your-client-id.apps.googleusercontent.com",
+        "GOOGLE_OAUTH_CLIENT_SECRET": "your-client-secret",
+        "USER_GOOGLE_EMAIL": "your.email@gmail.com",
+        "OAUTHLIB_INSECURE_TRANSPORT": "1"
+      }
+    }
+  }
+}

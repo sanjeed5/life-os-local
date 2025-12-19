@@ -20,10 +20,11 @@ A minimal operating system for your life—AI agents + plain text.
 | File | Purpose |
 |------|---------|
 | `today.md` | Your dashboard—plan and log for today |
-| `backlog.md` | Future tasks, projects, ideas |
-| `user.md` | Your identity and preferences for the AI |
+| `user.md` | Your profile and preferences (created by `/onboard`) |
+| `inbox.md` | Quick capture, projects, habits, someday ideas |
+| `wins.md` | Accomplishments worth remembering |
 | `journal/` | Archived days (Year/Month) |
-| `AGENTS.md` | Instructions for your AI assistant |
+| `AGENTS.md` | Instructions for the AI agent |
 
 ## Commands
 

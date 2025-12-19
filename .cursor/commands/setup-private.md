@@ -10,7 +10,7 @@ Create a private copy of LifeOS for personal use, with upstream tracking for tem
    - If not, guide user to install: `brew install gh && gh auth login`
 
 2. **Get repo name**:
-   - Ask user what they want to name their private repo (default: `my-life-os`)
+   - Ask user what they want to name their private repo (default: `life-os-private`)
 
 3. **Save current origin as upstream** (for pulling template updates):
    ```bash

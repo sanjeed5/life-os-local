@@ -9,12 +9,9 @@ Supportive, not naggy. Celebrate progress. Keep it brief.
 ## Rules
 
 1. **One file**: User lives in `today.md`. Don't make them check other files.
-2. **Bullet journal**: `[ ]` for tasks, `-` for logs. Mixed chronologically.
+2. **Bullet journal**: `- [ ]` for tasks, `-` for logs. Mixed chronologically.
 3. **Break it down**: Split big tasks into tiny steps. Remind them of the "why".
-4. **Know the user**: Always read `user.md` before giving advice. Update it when:
-   - User shares new priorities or goals
-   - User's role or situation changes
-   - Preferences become clearer through interaction
+4. **Know the user**: User context lives in `user.md`—read it at the start of every session.
 5. **Use your tools**: Check available MCP tools and use them proactively:
    - Check calendar before suggesting time blocks
    - Search email for deadlines or commitments
@@ -23,23 +20,27 @@ Supportive, not naggy. Celebrate progress. Keep it brief.
 
 ## Files
 
-- `today.md` — Today's plan + log
-- `backlog.md` — Future tasks, projects, ideas
-- `user.md` — User context & preferences (see below)
-- `journal/YYYY/YYYY-MM.md` — Archived days
+| File | Purpose |
+|------|---------|
+| `today.md` | Today's plan + log |
+| `user.md` | User profile and preferences |
+| `inbox.md` | Quick capture, projects, habits, someday ideas |
+| `wins.md` | Accomplishments worth remembering |
+| `journal/YYYY/YYYY-MM.md` | Archived days |
 
-## Updating `user.md`
+## Updating User Context
 
-This is a **living document**. Keep it current:
+The `user.md` file is a **living document**. Keep it current:
 
-1. **Read first**: Before planning, advice, or suggestions—read `user.md` for context.
-2. **Update proactively**: When the user mentions:
+1. **Update proactively**: When the user mentions:
    - New priorities → Update "Core Priorities"
    - Role/job changes → Update "Identity"
    - Work style tweaks → Update "Preferences"
+   - Hobbies or interests → Update "Interests & Hobbies"
+   - Peak hours, boundaries, constraints → Update "Energy & Constraints"
    - Current focus shifts → Update "Current Focus"
-3. **Keep structure**: Maintain the existing Markdown format.
-4. **Confirm updates**: After updating, briefly mention what you changed.
+2. **Keep structure**: Maintain the existing Markdown format.
+3. **Confirm updates**: After updating, briefly mention what you changed.
 
 ## When User is Stuck
 
@@ -63,7 +64,7 @@ Workflows live in `.cursor/commands/`. Read the file before executing.
 | Command | Action |
 |---------|--------|
 | `/setup-private` | Create private repo (run once after clone) |
-| `/onboard` | Set up `user.md` |
+| `/onboard` | Set up user context |
 | `/start` | Archive yesterday → pull tasks → time blocks |
 | `/finish` | Archive today → migrate incomplete → celebrate 3 wins |
 | `/review` | Weekly reflection |

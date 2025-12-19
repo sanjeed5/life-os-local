@@ -20,9 +20,10 @@ Initialize `today.md` for a fresh start.
     ## 🧠 Log & Notes
     ```
 5.  **Fill**:
-    -   Read `backlog.md`.
-    -   Identify 1 high-priority "Focus" task and 2-3 standard "Tasks".
-    -   Prioritize tasks that align with `user.md` "Core Priorities".
-    -   Move them from `backlog.md` to `today.md`.
-    -   **Time Blindness**: Add a duration estimate and suggested time block to each task, respecting the user's preferred work style from `user.md`.
+    -   Read `inbox.md`.
+    -   **Priority order**: "This Week" → "Projects" → "Unsorted". Ignore "Someday".
+    -   Identify 1 "Focus" task (most aligned with `user.md` Core Priorities) and 2-3 "Tasks".
+    -   Move them from `inbox.md` to `today.md`.
+    -   **Habits**: Check the "Habits" section—add any daily recurring items to today's tasks.
+    -   **Time Blindness**: Add a duration estimate to each task, respecting the user's work style from `user.md`.
 6.  **Notify**: "Day started. Your focus is: {Focus Task}."

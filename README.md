@@ -2,8 +2,6 @@
 
 A minimal operating system for your life—AI agents + plain text. **Local-first, no cloud required.**
 
-> **Note**: This is the offline/markdown-only version. For cloud-synced tasks with phone access, see [LifeOS](https://github.com/sanjeed5/life-os) (coming soon).
-
 ## Philosophy
 
 - **One file**: Live in `today.md`
